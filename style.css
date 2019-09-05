@@ -1,0 +1,102 @@
+#logoName{
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: url("http://static.asiawebdirect.com/m/phuket/portals/philippines-hotels-ws/homepage/cebu-island/best-cebu-attractions/pagePropertiesImage/best-cebu-attractions.jpg");
+    background-size: cover;
+}
+
+p { 
+	padding:2px 
+}
+#wrap, #loginwrap { 
+	width:500px; 
+	padding:20px; 
+	margin:20px auto;
+	background-color:rgba(192,192,192,0.5);
+	border:1px solid #cc;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	color: white;
+	margin-top: 100px;
+}
+div#wrap2, div#login2 {
+    border: 1px solid #CCCCCC;
+    margin-bottom: 10px;
+    padding:15px;
+}
+h2.free_account {
+    color: #3399FF;
+    display: block;
+    margin-bottom: 25px;
+}
+form#register_form label ,form#log_inform label  { 
+	display:inline-block; /* with block na */
+	width:125px;
+	font-weight:bold;
+}
+form#register_form label:after, form#log_inform label:after { 
+	content:":"
+}
+form#register_form input[type='text'], input[type='password']{ 
+	display:inline-block; /* with block na */
+	width:400px;
+	border:1px solid #ccc;
+	margin:0;
+	padding:5px;
+}
+
+form#log_inform input[type='text'], input[type='password'],input[type='email']{ 
+	display:inline-block; /* with block na */
+	width:400px;
+	border:1px solid #ccc;
+	margin:0;
+	padding:5px;
+}
+
+form#register_form select {
+    border: 1px solid #CCCCCC;
+    display: inline-block;
+    margin: 0;
+    padding: 5px 0;
+    width: 68px;
+    color: black;
+}
+form#register_form input[name='submit'] { 
+	border:1px solid #3399FF;
+	background:#3399FF;
+	border-radius: 5px;
+	margin:10px;
+	color:#FFF;
+	padding:5px;
+	font-weight:bold;
+	cursor:pointer;
+
+}
+form#log_inform input[name='submit'] { 
+	border:1px solid #3399FF;
+	background:#3399FF;
+	border-radius: 5px;
+	margin:10px;
+	color:#FFF;
+	padding:5px;
+	font-weight:bold;
+	cursor:pointer;
+	}
+p.validate_msg {
+    border: 1px solid #FF0000;
+    font-weight: bold;
+    padding: 10px;
+	display:none;
+	margin-bottom:25px
+}
+span.validate  {
+	color:#F00;
+	padding-left:8px;
+	font-style:italic;
+}
+
+
+
